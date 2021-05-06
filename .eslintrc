@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": [ "plugin:@bo2kshelf/typescript","plugin:@bo2kshelf/prettier"],
+}

@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev:utp": "ts-node ./src/utp/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "puppeteer": "^9.1.1"
+  },
+  "devDependencies": {
+    "@bo2kshelf/eslint-config": "^1.1.1",
+    "@bo2kshelf/prettier-config": "^1.0.0",
+    "@types/fs-extra": "^9.0.11",
+    "@types/node": "^15.0.2",
+    "@types/puppeteer": "^5.4.3",
+    "eslint": "^7.25.0",
+    "prettier": "2.2.1",
+    "prettier-plugin-optipack": "1.1.2",
+    "prettier-plugin-organize-imports": "1.1.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
