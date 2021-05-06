@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# output
+dist/
+
+# data
+data/
+
+# VSCode
+.vscode/*
+.vscode/extensions.json

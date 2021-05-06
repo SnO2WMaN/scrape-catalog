@@ -1,0 +1,6 @@
+# test
+coverage/
+junit/
+
+# output
+dist/
