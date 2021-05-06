@@ -46,7 +46,9 @@ export const parseSection = async (
   const $detail = await $elem?.$('.detail');
   const $isbn = await $detail?.$('span:nth-child(1)');
   const isbnRaw = await (await $isbn?.getProperty('textContent'))?.jsonValue();
-  const isbn = isbnRaw ? (isbnRaw as string).split('ISBN')[1] : undefined;
+  const isbn = isbnRaw
+    ? (isbnRaw as string).split('ISBN')[1].replace(/-/g, '')
+    : undefined;
 
   return id && isbn ? {id, isbn} : undefined;
 };
